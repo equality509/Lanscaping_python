@@ -11,7 +11,7 @@ tools = [
 
 def cut_grass():
     tool = tools[landscaping["tool"]]
-    print(f"You mow a lawn with your {tool['name']} and make {tool['profit']}. You have {landscaping['money']}")
+    print(f"You mow a lawn with your {tool['name']} and make {tool['profit']}. ")
     landscaping["money"] += tool["profit"]
 
 def check_stats():
